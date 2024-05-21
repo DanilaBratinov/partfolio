@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+#    container_name: test
+#    env_file:
+#      - variables 
+    ports:
+      - "${PORT}:80" 
